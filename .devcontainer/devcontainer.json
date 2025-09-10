@@ -1,0 +1,13 @@
+{
+  "name": "Python 3 with Raylib",
+  "image": "mcr.microsoft.com/devcontainers/python:0-3.11",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y libx11-dev libxext-dev libxcursor-dev libxrender-dev libxrandr-dev libxi-dev xvfb && pip install raylib",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+      ]
+    }
+  }
+}
